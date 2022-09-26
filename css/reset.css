@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+a{
+	color: inherit;
+}
+a:hover{
+	text-decoration: none;
+}
+a:link,
+a:visited{
+text-decoration: none;
+}
+li{
+	list-style: none;
+}
+html,
+body{
+	line-height: 1;
+}
+input,
+button,
+textarea{
+	font-family: inherit;
+	font-weight: inherit;
+}
+button{
+	color: inherit;
+	cursor: pointer;
+	background-color: inherit;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-size: inherit;
+	font-weight: inherit;
+}

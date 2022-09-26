@@ -1,0 +1,194 @@
+@font-face{
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"),url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"),url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Black.woff2") format("woff2"),url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+[class*=__conteiner]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+body{
+	font-family: 'Lato', san-serif;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: #424551;
+}
+h1{
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 59.8px;
+	text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);	
+}
+.title {
+	margin: 25px 0px 92px 0px;
+}
+.main {
+	margin: 0px 0px 30px 0px;
+}
+
+.image {
+	max-width: 100%;
+	margin: 0px 0px 60px 0px;
+}
+.shodow,
+.bold p{
+	color: #1E212C;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+}
+.shodow {
+	text-shadow: 0px 4px 4px rgb(30, 33, 44, 0.25);
+	margin: 0px 0px 24px 0px;
+}
+.normal {
+	font-weight: 400;
+}
+.text {
+	margin: 0px 0px 30px 0px;
+}
+.sub-text {
+	margin: 0px 0px 48px 0px;
+}
+.bold {
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+}
+.list p{
+	margin: 0px 0px 24px 0px;
+}
+.list li{
+	margin: 0px 0px 4px 32px;
+}
+.list {
+	margin: 0px 0px 24px 0px;
+}
+/*---------------------------------------------------------------------*/
+.block {
+	background-color: rgb(150, 25, 25, 0.5);
+	margin-bottom: 30px;
+}
+[class*=__size]{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.block__background {
+	background-image: url(../img/1.jpg);
+   height: 300px;
+}
+
+.grad{
+	background: rgb(173, 255, 47, 0.50) ;
+}
+.grad__size{
+	background: linear-gradient(45deg, rgb(28, 234, 187), rgb(238, 65, 14), rgb(46, 42, 238));
+	margin-bottom: 30px;
+}
+.grad__background {
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+   height: 300px;	
+}
+
+.scroll {
+background-color: aquamarine;
+margin-bottom: 30px;
+}
+.scroll__background {
+	height: 2500px;	
+	background: red url('../img/2.jpg') top center no-repeat fixed;
+}
+
+.repiat-y {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+
+.repiat-y__background {
+	height: 2000px;
+	background: url('../img/4.png') 0 0 /25% repeat-y;
+	margin: 0px 0px 50px 0px;	
+}
+
+.repiat-x {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+.repiat-x__background {
+	height: 2000px;
+	background: url('../img/4.png') 0 0 /25% repeat-x;
+}
+
+.repiat-space {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+.repiat-space__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 /25% space;
+}
+
+.repiat-round {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+.repiat-round__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 /25% round;
+}
+
+.size {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+
+.size__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 /auto 100% no-repeat;
+}
+
+.size-auto {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+.size-auto__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 /100% auto no-repeat;
+}
+
+.size-fact {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+.size-fact__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 /500px 500px no-repeat;
+}
+
+.size-conteint {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+
+.size-conteint__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 / contain no-repeat;
+}
+
+.size-cover {
+	background: linear-gradient(45deg, rgb(249, 249, 249), rgb(253, 253, 253,0.7)), url('../img/3.jpg') top center no-repeat fixed;
+}
+.size-cover__background {
+	height: 2000px;
+	background: url('../img/5.jpg') 0 0 / cover no-repeat;
+}
